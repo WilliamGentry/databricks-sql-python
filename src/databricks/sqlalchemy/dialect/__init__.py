@@ -4,7 +4,7 @@
 import decimal, re, datetime
 from dateutil.parser import parse
 
-from sqlalchemy import types, processors, event
+from sqlalchemy import types, event
 from sqlalchemy.engine import default, Engine
 from sqlalchemy.exc import DatabaseError
 from sqlalchemy.engine import reflection
